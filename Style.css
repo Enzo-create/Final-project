@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alert{
+    display: block;
+    padding: 12px 20px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+body{
+    background: url(Img/FotoGastronómica.jpg);
+}
+
+.form{
+    background-color: white;
+    padding: 3px;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+.container{
+    padding: 15px;
+    width: 100%;
+}
+
+.container-inputs{
+    font-size: 22px;
+    color: black;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+input[type="text"]{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid;
+    margin-left: 10px;
+    color: black;
+    width: 95%;
+}
+
+input[type="tel"]{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid;
+    margin-left: 10px;
+    color: black;
+    width: 95%;
+}
+
+input[type="number"]{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid;
+    margin-left: 10px;
+    color: black;
+    width: 90%;
+}
+
+input[type="email"]{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid;
+    margin-left: 10px;
+    color: black;
+    width: 95%;
+}
+
+
+.form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 767px){
+    .form{
+        margin: auto;
+        width: 510px;
+        margin-top: 50px;
+        padding: 15px;
+        border-radius: 25px;
+    }
+}
+
+.container-inputs{
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+input[type="text"]{
+    width: 90%;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+input[type="tel"]{
+    width: 90%;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+input[type="number"]{
+    width: 90%;
+    font-size: 19px;
+}
+
+
+
+input[type="email"]{
+    width: 90%;
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+
+input[type="submit"]{
+    width: 96%;
+    font-size: 19px;
+}
+
+p{
+    font-size: 17px;
+    padding: 0px 14px;
+}
